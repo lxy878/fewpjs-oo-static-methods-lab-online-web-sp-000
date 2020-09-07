@@ -7,7 +7,7 @@ class Formatter {
 
   }
 
-  titleize(){
+  titleize(s){
 
   }
 }
