@@ -19,4 +19,4 @@ class Formatter {
   }
 }
 
-console.log(Formatter.sanitize("Doin' Dishes"))
+console.log(Formatter.sanitize("!"))
