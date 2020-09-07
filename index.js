@@ -13,4 +13,4 @@ class Formatter {
   }
 }
 
-console.log(Formatter.capitalize('sdfdfdfsdf'));
+// console.log(Formatter.capitalize('sdfdfdfsdf'));
