@@ -1,5 +1,6 @@
 class Formatter {
   static capitalize(s){
+    s.split('')
     return s.toUpperCase();
   }
 
