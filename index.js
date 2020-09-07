@@ -5,7 +5,7 @@ class Formatter {
   }
 
   static sanitize(s){
-    return s.match(/[a-z][A-Z]/g);
+    return s.match(/[a-z][A-Z]/w+g);
   }
 
   static titleize(s){
@@ -13,4 +13,4 @@ class Formatter {
   }
 }
 
-// console.log(Formatter.capitalize('sdfdfdfsdf'));
+console.log(Formatter.capitalize(''));
