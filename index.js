@@ -19,4 +19,4 @@ class Formatter {
   }
 }
 
-console.log(Formatter.sanitize("'dfdfdf dfjldf ls$-$df df&*'*ddf df df'"))
+console.log(Formatter.sanitize("Entert*ain(i{ng-Elephan^ts"))
