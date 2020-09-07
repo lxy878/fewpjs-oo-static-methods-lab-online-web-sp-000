@@ -3,7 +3,7 @@ class Formatter {
     return s.toUpperCase();
   }
 
-  sanitize(s){
+  static sanitize(s){
     return s.match(/[a-z][A-Z]/g);
   }
 
