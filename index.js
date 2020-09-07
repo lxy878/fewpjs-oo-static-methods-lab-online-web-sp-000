@@ -6,7 +6,7 @@ class Formatter {
 
   static sanitize(s){
     const filter = s.match(/([A-Za-z\'\s-])+/g);
-    return (filter) ? filter:'';
+    return (filter) ? filter.join(''):'';
   }
 
   static titleize(s){
