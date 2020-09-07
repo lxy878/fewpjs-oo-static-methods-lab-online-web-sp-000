@@ -3,7 +3,7 @@ class Formatter {
     return string.toUpperCase();
   }
 
-  sanitize(string){
+  sanitize(s){
 
   }
 
