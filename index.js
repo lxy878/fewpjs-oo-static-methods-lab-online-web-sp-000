@@ -13,4 +13,4 @@ class Formatter {
   }
 }
 
-console.log(Formatter.capitalize(''));
+console.log(Formatter.sanitize('Entert*ain(i{ng-Elephan^ts'));
