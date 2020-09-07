@@ -13,4 +13,4 @@ class Formatter {
   }
 }
 
-console.log(Formatter.titleize('Entert*ain(i{ng-Elephan^ts'));
+console.log(Formatter.titleize('chicken soup with rice and a few other songs'));
