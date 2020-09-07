@@ -12,3 +12,5 @@ class Formatter {
 
   }
 }
+
+console.log(Formatter.capitalize('sdfdfdfsdf'));
