@@ -19,3 +19,5 @@ class Formatter {
     }).join(' ');
   }
 }
+
+console.log(Formatter.sanitize("c"))
