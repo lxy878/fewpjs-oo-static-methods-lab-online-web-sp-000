@@ -10,8 +10,12 @@ class Formatter {
 
   static titleize(s){
     return s.split(' ').map(word => {
-      if (word)
+      if (word){
         this.capitalize(word)
+      }else{
+        word
+      }
+
     }).join(' ');
   }
 }
