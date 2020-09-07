@@ -5,7 +5,7 @@ class Formatter {
   }
 
   static sanitize(s){
-    return s.match(/([A-Za-z])\w+/);
+    return s.match(/([A-Za-z])\w+/g);
   }
 
   static titleize(s){
