@@ -19,4 +19,4 @@ class Formatter {
   }
 }
 
-console.log(Formatter.sanitize("'dfdfdf dfjldf lsdf df&*'*ddf df df'"))
+console.log(Formatter.sanitize("'dfdfdf dfjldf ls$-$df df&*'*ddf df df'"))
