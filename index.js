@@ -9,7 +9,10 @@ class Formatter {
   }
 
   static titleize(s){
-    return s.split(' ').map(word => this.capitalize(word)).join(' ');
+    return s.split(' ').map(word => {
+      if (word)
+        this.capitalize(word)
+    }).join(' ');
   }
 }
 
