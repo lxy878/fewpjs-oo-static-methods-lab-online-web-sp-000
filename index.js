@@ -1,5 +1,5 @@
 class Formatter {
-  capitalize(string){
+  capitalize(s){
     return string.toUpperCase();
   }
 
