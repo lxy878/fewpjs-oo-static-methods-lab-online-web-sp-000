@@ -7,7 +7,7 @@ class Formatter {
     return s.match(/[a-z][A-Z]/g);
   }
 
-  titleize(s){
+  static titleize(s){
 
   }
 }
