@@ -15,7 +15,6 @@ class Formatter {
       }else{
         return word
       }
-
     }).join(' ');
   }
 }
