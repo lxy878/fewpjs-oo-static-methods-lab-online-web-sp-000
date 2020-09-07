@@ -1,6 +1,6 @@
 class Formatter {
   static capitalize(s){
-    s.split('')
+    const l = s.split('')
     return s.toUpperCase();
   }
 
