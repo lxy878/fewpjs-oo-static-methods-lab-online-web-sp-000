@@ -10,7 +10,6 @@ class Formatter {
 
   static titleize(s){
     return s.split(' ').map((word, i) => {
-      console.log(i==0)
       if (!(word === 'the' || word === 'a' || word === 'an' || word === 'but' || word === 'of' || word === 'and' || word === 'for' || word === 'at' || word === 'by' || word === 'from') && i == 0){
         return this.capitalize(word)
       }else{
