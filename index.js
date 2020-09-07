@@ -9,7 +9,7 @@ class Formatter {
   }
 
   static titleize(s){
-    s.split(' ')
+    s.split(' ').map(word => this.capitalize(word))
   }
 }
 
